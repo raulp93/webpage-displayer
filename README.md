@@ -20,13 +20,18 @@ default browser, opens a new tab and navigates to the url that was passed.
   - ensure that the file article.txt is present in the directory
   - ensure that the file url.txt is present in the directory
 
-# Requesting service:
+# Requesting data:
 
 A user must manually run this program in a terminal.
 
 A program must write the word 'run' in to the article.txt file. This lets the webpage microservice that a client program is requesting service. 
 
 The program requesting service must also write the URL of the desired webpage to be displayed in another text file called url.txt. 
+
+# Recieving data:
+
+A user must scan the article.txt file for the words 'ok' which indicates the request was recieved.
+A user must scan the article.txt file for the words 'success' which indicates the program opened up the url in the default web browser.
 
 # Data transfer:
 
