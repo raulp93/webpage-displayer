@@ -30,6 +30,7 @@ The program requesting service must also write the URL of the desired webpage to
 
 # Data transfer:
 
+
 The data that the program accepts is the word 'run' and a 'url'. At the moment, there is no data validation so if the 
 url is not valid, it will simply not load in the browser. 
 
@@ -38,5 +39,8 @@ As soon as the program reads the word 'run', it overwrites that with the word 'o
 
 After the program opens up and displays the webpage, it writes the word 'success' to the article.txt file. This is to let the client program know that the operation was successful
 
+# UML DIAGRAM:
+
+![unnamed](https://github.com/raulp93/webpage-displayer/assets/126728423/3c975bc1-7878-4777-b0b8-e31a4b148a67)
 
 
